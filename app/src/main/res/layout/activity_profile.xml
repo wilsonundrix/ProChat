@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wilsonundrix.prochat.Profile">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/pad16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/pad16"
+            android:src="@drawable/mask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:drawableLeft="@drawable/person"
+            android:layout_margin="@dimen/pad16"
+            android:textSize="@dimen/pad24"
+            android:hint="UserName"
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pad16"
+            android:drawableLeft="@drawable/email"
+            android:hint="@string/email_hint"
+            android:textSize="@dimen/pad24" />
+
+        <TextView
+            android:id="@+id/tvUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pad16"
+            android:drawableLeft="@drawable/cell"
+            android:hint="@string/phone_hint"
+            android:textSize="@dimen/pad24" />
+
+        <Button
+            android:onClick="LogOut"
+            android:layout_margin="@dimen/pad16"
+            android:text="@string/log_out"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "709135657926",
+    "firebase_url": "https://prochat-882c9.firebaseio.com",
+    "project_id": "prochat-882c9",
+    "storage_bucket": "prochat-882c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709135657926:android:c5e7886af00d8163",
+        "android_client_info": {
+          "package_name": "com.wilsonundrix.prochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709135657926-20532f18qf7nl832u21r909hgtpr17qe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wilsonundrix.prochat",
+            "certificate_hash": "2d1d3181338bec940162129003bf5ebc9ba18288"
+          }
+        },
+        {
+          "client_id": "709135657926-16nsjs056u6gs609rq3frcge98uich1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe7md_qd8Fxv5RmY4dRBzRpfpn3kYwHOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709135657926-16nsjs056u6gs609rq3frcge98uich1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
